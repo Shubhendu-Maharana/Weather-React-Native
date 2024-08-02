@@ -46,7 +46,7 @@ jobs:
       - name: Build Android APK
         run: |
           eas build --profile preview --platform android --non-interactive --clear-cache --local
-          mv ./*.apk Weather-v${{ github.run_number }}.apk 
+          mv ./*.apk Weather-v1.apk 
 
       - name: Create Release
         id: create_release
@@ -54,8 +54,8 @@ jobs:
         env:
           GITHUB_TOKEN: ${{secrets.GIT_TOKEN}}
         with:
-          tag_name: v${{ github.run_number }}
-          release_name: Weather v${{ github.run_number }}
+          tag_name: v1
+          release_name: Weather v1
           body: |
             Changelog
             - Initial build
@@ -68,7 +68,7 @@ jobs:
           GITHUB_TOKEN: ${{secrets.GIT_TOKEN}}
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: ./Weather-v${{ github.run_number }}.apk
-          asset_name: Weather-v${{ github.run_number }}.apk
+          asset_path: ./Weather-v1.apk
+          asset_name: Weather-v1.apk
           asset_content_type: application/vnd.android.package-archive
           
