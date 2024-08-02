@@ -57,7 +57,7 @@ jobs:
           tag_name: v${{ github.run_number }}
           release_name: Weather v${{ github.run_number }}
           body: |
-            Changes in this Release
+            Changelog
             - Initial build
           draft: false
           prerelease: false
