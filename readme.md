@@ -13,6 +13,10 @@ Welcome to the Weather App! - a React Native Weather App built entirely with Jav
 - 🌈 Designed with NativeWind for a clean and responsive interface. <br>
 - 💻 Continuous integration and deployment using GitHub Actions. <br>
 
+## Changelog
+### V1.5
+- Revamped UI like glassmorphism
+
 ## Screenshots
 <img src="/Screenshots/Screenshot-1.jpg" width="50%" />
 <img src="/Screenshots/Screenshot-2.jpg" width="50%" />
