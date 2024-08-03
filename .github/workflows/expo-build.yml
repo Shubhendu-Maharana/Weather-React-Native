@@ -48,7 +48,7 @@ jobs:
       - name: Build Android APK
         run: |
           eas build --profile preview --platform android --non-interactive --clear-cache --local
-          mv ./*.apk Weather-v1.apk 
+          mv ./*.apk Weather-v1.5.apk 
 
       - name: Create Release
         id: create_release
