@@ -18,8 +18,8 @@ Welcome to the Weather App! - a React Native Weather App built entirely with Jav
 - Revamped UI like glassmorphism
 
 ## Screenshots
-<img src="/Screenshots/Screenshot-1.jpg" width="50%" />
-<img src="/Screenshots/Screenshot-2.jpg" width="50%" />
+<img src="/Screenshots/Screenshot-1.5-1.jpg" width="50%" />
+<img src="/Screenshots/Screenshot-1.5-2.jpg" width="50%" />
 
 ## Note
 The source repo is currently in private, will be public soon.
