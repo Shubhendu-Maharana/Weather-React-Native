@@ -17,6 +17,12 @@ Welcome to the Weather App! - a React Native Weather App built entirely with Jav
 ### V1.5
 - Revamped UI like glassmorphism
 
+### V2
+- Added sidebar
+- City search functionality added
+- City search history added
+- More bug fixed
+
 ## Screenshots
 <img src="/Screenshots/Screenshot-1.5-1.jpg" width="50%" />
 <img src="/Screenshots/Screenshot-1.5-2.jpg" width="50%" />
